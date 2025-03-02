@@ -53,7 +53,6 @@ struct WallLocations {
 }
 
 fn main() {
-    println!("Starting pong game...");
     App::new()
         .add_plugins(DefaultPlugins)
         .insert_resource(ClearColor(BG_COLOR))
